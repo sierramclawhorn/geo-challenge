@@ -8,7 +8,7 @@ returns the address of the geographically closest store from the dataset
 
 ## how it works
 
-![screenshot](https://postimg.org/image/e5vraofp5/)
+![screenshot](https://i.imgsafe.org/fb53ac5e40.png)
 
 After researching, I decided to try the Georkit for Rails, as it utilizes the Google Maps API and makes sorting locations by distance easy! 
 I parsed the CSV store locations file and added it to the database.
