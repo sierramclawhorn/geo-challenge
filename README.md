@@ -1,6 +1,8 @@
 # geo-challenge
 write a script or application that, given a reasonably well-formed address string like:
+
 1770 Union St, San Francisco, CA 94115
+
 returns the address of the geographically closest store from the dataset
 
 
