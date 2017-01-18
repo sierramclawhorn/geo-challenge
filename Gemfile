@@ -36,6 +36,7 @@ group :development, :test do
   # Rspec
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'rails-controller-testing'
   gem 'autotest'
   gem 'autotest-standalone'
 end
