@@ -17,4 +17,4 @@ Within *app/helpers/locations_helper.rb* there are two methods:
 one whose *address* variable can be changed to any valid address string, and one that finds the closest store by comparing the former address to those in the database--which is populated with parsed data from the CSV file.
 The distance is found using Haversine calculations, rather than Pythagoreum Theory, to account for spherical distance. 
 The output printed to the screen gives the specified address and the (full) address of the closest store location. 
-I also included a map with markers set on both addresses, so that there is a visual element of the distance. 
+I also included a map with markers set on both addresses, so that there is a visual element of the distance. These markers are created using geocoder, which converts the address strings on the page into geographic coordinates.
