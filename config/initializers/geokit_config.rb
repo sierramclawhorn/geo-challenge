@@ -28,7 +28,7 @@ Geokit::Geocoders::request_timeout = 3
 
 # You can also use the free API key instead of signed requests
 # See https://developers.google.com/maps/documentation/geocoding/#api_key
-# Geokit::Geocoders::GoogleGeocoder.api_key = ''
+Geokit::Geocoders::GoogleGeocoder.api_key = ENV['GOOGLE_MAPS_KEY']
 
 # You can also set multiple API KEYS for different domains that may be directed
 # to this same application.
@@ -39,7 +39,8 @@ Geokit::Geocoders::request_timeout = 3
 # You define these keys with a Hash as follows:
 # Geokit::Geocoders::google = {
 # 'rubyonrails.org' => 'RUBY_ON_RAILS_API_KEY',
-# ' ruby-docs.org' => 'RUBY_DOCS_API_KEY' }
+# ' ruby-docs.org' => 'RUBY_DOCS_API_KEY' 
+
 
 # This is your username and password for geocoder.us.
 # To use the free service, the value can be set to nil or false.  For

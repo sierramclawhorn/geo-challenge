@@ -1,13 +1,7 @@
+<!-- Google Map -->
 <div id="map-container">
 	<input id="pac-input" class="controls" type="text" placeholder="Search Box">
   	<div id="map"></div>
 </div>
 
-
-
-<% @locations.each do |store| %>
-	<ul>
-		<li><%= store.store_name %> |
-		<%= store.address %></li>
-	</ul>
-<% end %>
+<%= closest_store %>
