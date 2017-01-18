@@ -1,13 +1,13 @@
 module LocationsHelper
 
-	def input_address
-		puts "Enter an address: "
-		address = "4079 NC 903 South, Winterville, NC 28590"
+	# change address variable to any valid address string
+	def given_address
+		address = "1770 Union St, San Francisco, CA 94115"
 	end
 
 	def closest_store
-		near_store = Location.closest(:origin => input_address)
-		"The closest store is #{near_store.first.store_name}, located at #{near_store.first.address}"
+		store = Location.closest(:origin => given_address)
+		"#{store.first.address}, #{store.first.city}, #{store.first.state} #{store.first.zip_code}"
 	end
 
 end
