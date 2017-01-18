@@ -7,6 +7,9 @@ returns the address of the geographically closest store from the dataset
 
 
 ## how it works
+
+![screenshot](https://i.imgsafe.org/f16cd7a1be.png)
+
 After researching, I decided to try Georkit for Rails, as it utilizes the Google Maps API and makes sorting locations by distance easy! 
 
 Within *app/helpers/locations_helper.rb* there are two methods: 
